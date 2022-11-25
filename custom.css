@@ -3,3 +3,18 @@ body {
     color: #EDEDED;
     font-family: 'Times new roman';
 }
+
+h3 {
+    margin: 10px;
+}
+button {
+    margin: 5px;
+}
+
+.linkedinbutton a:visited {
+    color: white
+}
+
+.githubbutton a:visited {
+    color: black;
+}
