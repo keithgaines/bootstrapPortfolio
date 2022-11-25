@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'keithgainesportfolio'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_4252238CF3294D698F736BA1FE3A5733 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_0A942860E6B1432487891B5DA4A816C9 }}
