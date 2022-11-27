@@ -1,6 +1,6 @@
 from flask import Flask, render_template, FlaskForm
 from wtforms import TextField, BooleanField, TextAreaField, SubmitField
-import request
+import requests
 
 class ContactForm(FlaskForm):
     name = TextField("Name")
@@ -20,9 +20,9 @@ def home():
 @app.route('/contact.html')
 def contact():
     form = ContactForm()
-    if request.method == 'POST':
+    if requests.method == 'POST':
         return 'Form posted.'
-    elif request.method == 'GET':
+    elif requests.method == 'GET':
         return render_template('contact.html,' form=form)
 
 
